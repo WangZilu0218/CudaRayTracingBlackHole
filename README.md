@@ -24,6 +24,7 @@ A .so library RayTraceBlackHole.cpython-36m-x86_64-linux-gnu.so will be generate
 you can use this .so by python
 
 '''
+
 from RayTraceBlackHole import renderBlackHoleOneFrame
 
 import numpy as np
@@ -35,6 +36,7 @@ lookAt = np.array([0.0, 0.0, 0.0])
 up = np.array([-0.3, 1.0, 0.0])
 
 renderBlackHoleOneFrame(cameraPos, lookAt, up, 0)
+
 '''
 
 5.or copy the example python script observeBlackHole.py to build
