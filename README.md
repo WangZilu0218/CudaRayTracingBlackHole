@@ -40,7 +40,7 @@ renderBlackHoleOneFrame(cameraPos, lookAt, up, 0)
 
 '''
 
-5.or copy the example python script observeBlackHole.py to build
+5.copy the example python script observeBlackHole.py to build
  
 6.python observeBlackHole.py
 ![out2.jpg](https://github.com/WangZilu0218/CudaRayTracingBlackHole/blob/master/out2.jpg)
