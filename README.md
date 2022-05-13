@@ -8,9 +8,10 @@ This is a black hole renderer implemented by cuda. It will run automatically on 
 minimum cuda 9.0 and opencv 4.0+ required. If your cuda is 11.6+, please download cuda samples and use target_include_derectories() to link /usr/local/cuda/samples/common/inc folder to the target.
 
 
-**Build on Linux():** 
+**Build on Linux:** 
 
 In project directory
+
 1.mkdir build
 
 2.cd build
