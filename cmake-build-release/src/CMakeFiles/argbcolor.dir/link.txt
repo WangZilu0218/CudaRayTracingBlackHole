@@ -1,0 +1,2 @@
+/usr/bin/ar qc libargbcolor.a  CMakeFiles/argbcolor.dir/utiles/ArgbColor.cu.o
+/usr/bin/ranlib libargbcolor.a

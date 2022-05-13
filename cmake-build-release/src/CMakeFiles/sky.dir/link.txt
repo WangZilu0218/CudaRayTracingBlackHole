@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsky.a  CMakeFiles/sky.dir/hitables/Sky.cu.o
+/usr/bin/ranlib libsky.a

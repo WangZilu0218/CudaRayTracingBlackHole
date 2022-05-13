@@ -1,0 +1,2 @@
+/usr/bin/ar qc libpara.a  CMakeFiles/para.dir/utiles/parallelStaff.cpp.o
+/usr/bin/ranlib libpara.a

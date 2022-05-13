@@ -1,0 +1,2 @@
+/usr/bin/ar qc libtextureDisk.a  CMakeFiles/textureDisk.dir/hitables/TexturedDisk.cu.o
+/usr/bin/ranlib libtextureDisk.a

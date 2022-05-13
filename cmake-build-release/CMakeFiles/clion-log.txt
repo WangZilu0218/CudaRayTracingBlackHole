@@ -1,0 +1,10 @@
+/usr/bin/cmake -DCMAKE_BUILD_TYPE=Release -DCMAKE_CUDA_COMPILER=/usr/local/cuda/bin/nvcc -G "CodeBlocks - Unix Makefiles" /tmp/tmp.VJ6IohNGxK
+-- pybind11 v2.9.0 dev1
+-- /usr/local/cuda/include
+-- /tmp/tmp.VJ6IohNGxK
+-- /usr/local/cuda/lib64/libcudart_static.a-lpthreaddl/usr/lib/x86_64-linux-gnu/librt.so
+-- OpenMP includes: 
+-- OpenMP libraries: /usr/lib/gcc/x86_64-linux-gnu/7/libgomp.so;/usr/lib/x86_64-linux-gnu/libpthread.so
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /tmp/tmp.VJ6IohNGxK/cmake-build-release

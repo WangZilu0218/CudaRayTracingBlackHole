@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="BlackHoleRayTracer"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\usr\;CMake Files\..\..\usr\share\;CMake Files\..\..\usr\share\OpenCV\;CMake Files\pybind11\;CMake Files\pybind11\tools\;CMake Files\src\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/tmp/tmp.VJ6IohNGxK/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/tmp/tmp.VJ6IohNGxK/cmake-build-release/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/tmp/tmp.VJ6IohNGxK/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/tmp/tmp.VJ6IohNGxK/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/tmp/tmp.VJ6IohNGxK/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/tmp/tmp.VJ6IohNGxK/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/tmp/tmp.VJ6IohNGxK/cmake-build-release/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/tmp/tmp.VJ6IohNGxK/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/tmp/tmp.VJ6IohNGxK/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/tmp/tmp.VJ6IohNGxK/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RayTraceBlackHole">
+				<Option output="/tmp/tmp.VJ6IohNGxK/cmake-build-release/RayTraceBlackHole.cpython-36m-x86_64-linux-gnu.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.VJ6IohNGxK/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/local/cuda/samples/common/inc"/>
+					<Add directory="/tmp/tmp.VJ6IohNGxK/.."/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/tmp/tmp.VJ6IohNGxK"/>
+					<Add directory="/tmp/tmp.VJ6IohNGxK/src/.."/>
+					<Add directory="/tmp/tmp.VJ6IohNGxK/src"/>
+					<Add directory="/tmp/tmp.VJ6IohNGxK/pybind11/include"/>
+					<Add directory="/usr/include/python3.6m"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/tmp/tmp.VJ6IohNGxK/cmake-build-release/Makefile&quot;  VERBOSE=1 RayTraceBlackHole"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/tmp/tmp.VJ6IohNGxK/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/tmp/tmp.VJ6IohNGxK/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/tmp/tmp.VJ6IohNGxK/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RayTraceBlackHole/fast">
+				<Option output="/tmp/tmp.VJ6IohNGxK/cmake-build-release/RayTraceBlackHole.cpython-36m-x86_64-linux-gnu.so" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.VJ6IohNGxK/cmake-build-release"/>
+				<Option object_output="./"/>
+				<Option type="3"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/local/cuda/samples/common/inc"/>
+					<Add directory="/tmp/tmp.VJ6IohNGxK/.."/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/tmp/tmp.VJ6IohNGxK"/>
+					<Add directory="/tmp/tmp.VJ6IohNGxK/src/.."/>
+					<Add directory="/tmp/tmp.VJ6IohNGxK/src"/>
+					<Add directory="/tmp/tmp.VJ6IohNGxK/pybind11/include"/>
+					<Add directory="/usr/include/python3.6m"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/tmp/tmp.VJ6IohNGxK/cmake-build-release/Makefile&quot;  VERBOSE=1 RayTraceBlackHole/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/tmp/tmp.VJ6IohNGxK/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/tmp/tmp.VJ6IohNGxK/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/tmp/tmp.VJ6IohNGxK/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/tmp/tmp.VJ6IohNGxK/cmake-build-release"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/tmp/tmp.VJ6IohNGxK/cmake-build-release/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/tmp/tmp.VJ6IohNGxK/cmake-build-release/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/tmp/tmp.VJ6IohNGxK/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/tmp/tmp.VJ6IohNGxK/cmake-build-release/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="scene">
+				<Option output="/tmp/tmp.VJ6IohNGxK/cmake-build-release/src/libscene.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.VJ6IohNGxK/cmake-build-release/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/local/cuda/samples/common/inc"/>
+					<Add directory="/tmp/tmp.VJ6IohNGxK/src/.."/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/tmp/tmp.VJ6IohNGxK/src"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/tmp/tmp.VJ6IohNGxK/cmake-build-release/src/Makefile&quot;  VERBOSE=1 scene"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/tmp/tmp.VJ6IohNGxK/cmake-build-release/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/tmp/tmp.VJ6IohNGxK/cmake-build-release/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/tmp/tmp.VJ6IohNGxK/cmake-build-release/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="scene/fast">
+				<Option output="/tmp/tmp.VJ6IohNGxK/cmake-build-release/src/libscene.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.VJ6IohNGxK/cmake-build-release/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/local/cuda/samples/common/inc"/>
+					<Add directory="/tmp/tmp.VJ6IohNGxK/src/.."/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/tmp/tmp.VJ6IohNGxK/src"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/tmp/tmp.VJ6IohNGxK/cmake-build-release/src/Makefile&quot;  VERBOSE=1 scene/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/tmp/tmp.VJ6IohNGxK/cmake-build-release/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/tmp/tmp.VJ6IohNGxK/cmake-build-release/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/tmp/tmp.VJ6IohNGxK/cmake-build-release/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="para">
+				<Option output="/tmp/tmp.VJ6IohNGxK/cmake-build-release/src/libpara.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.VJ6IohNGxK/cmake-build-release/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/local/cuda/samples/common/inc"/>
+					<Add directory="/tmp/tmp.VJ6IohNGxK/src/.."/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/tmp/tmp.VJ6IohNGxK/src"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/tmp/tmp.VJ6IohNGxK/cmake-build-release/src/Makefile&quot;  VERBOSE=1 para"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/tmp/tmp.VJ6IohNGxK/cmake-build-release/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/tmp/tmp.VJ6IohNGxK/cmake-build-release/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/tmp/tmp.VJ6IohNGxK/cmake-build-release/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="para/fast">
+				<Option output="/tmp/tmp.VJ6IohNGxK/cmake-build-release/src/libpara.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.VJ6IohNGxK/cmake-build-release/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/local/cuda/samples/common/inc"/>
+					<Add directory="/tmp/tmp.VJ6IohNGxK/src/.."/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/tmp/tmp.VJ6IohNGxK/src"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/tmp/tmp.VJ6IohNGxK/cmake-build-release/src/Makefile&quot;  VERBOSE=1 para/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/tmp/tmp.VJ6IohNGxK/cmake-build-release/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/tmp/tmp.VJ6IohNGxK/cmake-build-release/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/tmp/tmp.VJ6IohNGxK/cmake-build-release/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="textureDisk">
+				<Option output="/tmp/tmp.VJ6IohNGxK/cmake-build-release/src/libtextureDisk.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.VJ6IohNGxK/cmake-build-release/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/local/cuda/samples/common/inc"/>
+					<Add directory="/tmp/tmp.VJ6IohNGxK/src/.."/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/tmp/tmp.VJ6IohNGxK"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/tmp/tmp.VJ6IohNGxK/cmake-build-release/src/Makefile&quot;  VERBOSE=1 textureDisk"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/tmp/tmp.VJ6IohNGxK/cmake-build-release/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/tmp/tmp.VJ6IohNGxK/cmake-build-release/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/tmp/tmp.VJ6IohNGxK/cmake-build-release/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="textureDisk/fast">
+				<Option output="/tmp/tmp.VJ6IohNGxK/cmake-build-release/src/libtextureDisk.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.VJ6IohNGxK/cmake-build-release/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/local/cuda/samples/common/inc"/>
+					<Add directory="/tmp/tmp.VJ6IohNGxK/src/.."/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/tmp/tmp.VJ6IohNGxK"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/tmp/tmp.VJ6IohNGxK/cmake-build-release/src/Makefile&quot;  VERBOSE=1 textureDisk/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/tmp/tmp.VJ6IohNGxK/cmake-build-release/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/tmp/tmp.VJ6IohNGxK/cmake-build-release/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/tmp/tmp.VJ6IohNGxK/cmake-build-release/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="utils">
+				<Option output="/tmp/tmp.VJ6IohNGxK/cmake-build-release/src/libutils.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.VJ6IohNGxK/cmake-build-release/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/local/cuda/samples/common/inc"/>
+					<Add directory="/tmp/tmp.VJ6IohNGxK/src/.."/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/tmp/tmp.VJ6IohNGxK/cmake-build-release/src/Makefile&quot;  VERBOSE=1 utils"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/tmp/tmp.VJ6IohNGxK/cmake-build-release/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/tmp/tmp.VJ6IohNGxK/cmake-build-release/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/tmp/tmp.VJ6IohNGxK/cmake-build-release/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="utils/fast">
+				<Option output="/tmp/tmp.VJ6IohNGxK/cmake-build-release/src/libutils.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.VJ6IohNGxK/cmake-build-release/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/local/cuda/samples/common/inc"/>
+					<Add directory="/tmp/tmp.VJ6IohNGxK/src/.."/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/tmp/tmp.VJ6IohNGxK/cmake-build-release/src/Makefile&quot;  VERBOSE=1 utils/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/tmp/tmp.VJ6IohNGxK/cmake-build-release/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/tmp/tmp.VJ6IohNGxK/cmake-build-release/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/tmp/tmp.VJ6IohNGxK/cmake-build-release/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sky">
+				<Option output="/tmp/tmp.VJ6IohNGxK/cmake-build-release/src/libsky.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.VJ6IohNGxK/cmake-build-release/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/local/cuda/samples/common/inc"/>
+					<Add directory="/tmp/tmp.VJ6IohNGxK/src/.."/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/tmp/tmp.VJ6IohNGxK"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/tmp/tmp.VJ6IohNGxK/cmake-build-release/src/Makefile&quot;  VERBOSE=1 sky"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/tmp/tmp.VJ6IohNGxK/cmake-build-release/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/tmp/tmp.VJ6IohNGxK/cmake-build-release/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/tmp/tmp.VJ6IohNGxK/cmake-build-release/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="sky/fast">
+				<Option output="/tmp/tmp.VJ6IohNGxK/cmake-build-release/src/libsky.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.VJ6IohNGxK/cmake-build-release/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/local/cuda/samples/common/inc"/>
+					<Add directory="/tmp/tmp.VJ6IohNGxK/src/.."/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/tmp/tmp.VJ6IohNGxK"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/tmp/tmp.VJ6IohNGxK/cmake-build-release/src/Makefile&quot;  VERBOSE=1 sky/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/tmp/tmp.VJ6IohNGxK/cmake-build-release/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/tmp/tmp.VJ6IohNGxK/cmake-build-release/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/tmp/tmp.VJ6IohNGxK/cmake-build-release/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="argbcolor">
+				<Option output="/tmp/tmp.VJ6IohNGxK/cmake-build-release/src/libargbcolor.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.VJ6IohNGxK/cmake-build-release/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/local/cuda/samples/common/inc"/>
+					<Add directory="/tmp/tmp.VJ6IohNGxK/src/.."/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/tmp/tmp.VJ6IohNGxK/cmake-build-release/src/Makefile&quot;  VERBOSE=1 argbcolor"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/tmp/tmp.VJ6IohNGxK/cmake-build-release/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/tmp/tmp.VJ6IohNGxK/cmake-build-release/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/tmp/tmp.VJ6IohNGxK/cmake-build-release/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="argbcolor/fast">
+				<Option output="/tmp/tmp.VJ6IohNGxK/cmake-build-release/src/libargbcolor.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.VJ6IohNGxK/cmake-build-release/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/local/cuda/samples/common/inc"/>
+					<Add directory="/tmp/tmp.VJ6IohNGxK/src/.."/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/tmp/tmp.VJ6IohNGxK/cmake-build-release/src/Makefile&quot;  VERBOSE=1 argbcolor/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/tmp/tmp.VJ6IohNGxK/cmake-build-release/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/tmp/tmp.VJ6IohNGxK/cmake-build-release/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/tmp/tmp.VJ6IohNGxK/cmake-build-release/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SchwarzschildRayProcessor">
+				<Option output="/tmp/tmp.VJ6IohNGxK/cmake-build-release/src/libSchwarzschildRayProcessor.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.VJ6IohNGxK/cmake-build-release/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/local/cuda/samples/common/inc"/>
+					<Add directory="/tmp/tmp.VJ6IohNGxK/src/.."/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/tmp/tmp.VJ6IohNGxK"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/tmp/tmp.VJ6IohNGxK/cmake-build-release/src/Makefile&quot;  VERBOSE=1 SchwarzschildRayProcessor"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/tmp/tmp.VJ6IohNGxK/cmake-build-release/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/tmp/tmp.VJ6IohNGxK/cmake-build-release/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/tmp/tmp.VJ6IohNGxK/cmake-build-release/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="SchwarzschildRayProcessor/fast">
+				<Option output="/tmp/tmp.VJ6IohNGxK/cmake-build-release/src/libSchwarzschildRayProcessor.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.VJ6IohNGxK/cmake-build-release/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/local/cuda/samples/common/inc"/>
+					<Add directory="/tmp/tmp.VJ6IohNGxK/src/.."/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/tmp/tmp.VJ6IohNGxK"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/tmp/tmp.VJ6IohNGxK/cmake-build-release/src/Makefile&quot;  VERBOSE=1 SchwarzschildRayProcessor/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/tmp/tmp.VJ6IohNGxK/cmake-build-release/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/tmp/tmp.VJ6IohNGxK/cmake-build-release/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/tmp/tmp.VJ6IohNGxK/cmake-build-release/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="horizon">
+				<Option output="/tmp/tmp.VJ6IohNGxK/cmake-build-release/src/libhorizon.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.VJ6IohNGxK/cmake-build-release/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/local/cuda/samples/common/inc"/>
+					<Add directory="/tmp/tmp.VJ6IohNGxK/src/.."/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/tmp/tmp.VJ6IohNGxK"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/tmp/tmp.VJ6IohNGxK/cmake-build-release/src/Makefile&quot;  VERBOSE=1 horizon"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/tmp/tmp.VJ6IohNGxK/cmake-build-release/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/tmp/tmp.VJ6IohNGxK/cmake-build-release/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/tmp/tmp.VJ6IohNGxK/cmake-build-release/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="horizon/fast">
+				<Option output="/tmp/tmp.VJ6IohNGxK/cmake-build-release/src/libhorizon.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/tmp/tmp.VJ6IohNGxK/cmake-build-release/src"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/cuda/include"/>
+					<Add directory="/usr/local/cuda/samples/common/inc"/>
+					<Add directory="/tmp/tmp.VJ6IohNGxK/src/.."/>
+					<Add directory="/usr/include/opencv"/>
+					<Add directory="/tmp/tmp.VJ6IohNGxK"/>
+					<Add directory="/usr/include/c++/7"/>
+					<Add directory="/usr/include/x86_64-linux-gnu/c++/7"/>
+					<Add directory="/usr/include/c++/7/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-linux-gnu/7/include-fixed"/>
+					<Add directory="/usr/include/x86_64-linux-gnu"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j12 -f &quot;/tmp/tmp.VJ6IohNGxK/cmake-build-release/src/Makefile&quot;  VERBOSE=1 horizon/fast"/>
+					<CompileFile command="/usr/bin/make -j12 -f &quot;/tmp/tmp.VJ6IohNGxK/cmake-build-release/src/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j12 -f &quot;/tmp/tmp.VJ6IohNGxK/cmake-build-release/src/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j12 -f &quot;/tmp/tmp.VJ6IohNGxK/cmake-build-release/src/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/tmp/tmp.VJ6IohNGxK/Program.cpp">
+			<Option target="RayTraceBlackHole"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.VJ6IohNGxK/src/Scene.cpp">
+			<Option target="scene"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.VJ6IohNGxK/src/Scene.h">
+			<Option target="scene"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.VJ6IohNGxK/src/hitables/Horizon.cu">
+			<Option target="horizon"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.VJ6IohNGxK/src/hitables/Sky.cu">
+			<Option target="sky"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.VJ6IohNGxK/src/hitables/TexturedDisk.cu">
+			<Option target="textureDisk"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.VJ6IohNGxK/src/processor/SchwarzschildRayProcessor.cpp">
+			<Option target="SchwarzschildRayProcessor"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.VJ6IohNGxK/src/processor/SchwarzschildRayProcessor.cu">
+			<Option target="SchwarzschildRayProcessor"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.VJ6IohNGxK/src/processor/SchwarzschildRayProcessor.h">
+			<Option target="SchwarzschildRayProcessor"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.VJ6IohNGxK/src/utiles/ArgbColor.cu">
+			<Option target="argbcolor"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.VJ6IohNGxK/src/utiles/parallelStaff.cpp">
+			<Option target="para"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.VJ6IohNGxK/src/utiles/parallelStaff.h">
+			<Option target="para"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.VJ6IohNGxK/src/utiles/utils.cu">
+			<Option target="utils"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.VJ6IohNGxK/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.VJ6IohNGxK/../../usr/share/OpenCV/OpenCVConfig-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.VJ6IohNGxK/../../usr/share/OpenCV/OpenCVConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.VJ6IohNGxK/../../usr/share/OpenCV/OpenCVModules-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.VJ6IohNGxK/../../usr/share/OpenCV/OpenCVModules.cmake">
+			<Option virtualFolder="CMake Files\..\..\usr\share\OpenCV\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.VJ6IohNGxK/pybind11/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\pybind11\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.VJ6IohNGxK/pybind11/tools/FindPythonLibsNew.cmake">
+			<Option virtualFolder="CMake Files\pybind11\tools\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.VJ6IohNGxK/pybind11/tools/pybind11Common.cmake">
+			<Option virtualFolder="CMake Files\pybind11\tools\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.VJ6IohNGxK/pybind11/tools/pybind11Tools.cmake">
+			<Option virtualFolder="CMake Files\pybind11\tools\"/>
+		</Unit>
+		<Unit filename="/tmp/tmp.VJ6IohNGxK/src/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\src\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

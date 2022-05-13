@@ -1,0 +1,2 @@
+/usr/bin/ar qc libhorizon.a  CMakeFiles/horizon.dir/hitables/Horizon.cu.o
+/usr/bin/ranlib libhorizon.a

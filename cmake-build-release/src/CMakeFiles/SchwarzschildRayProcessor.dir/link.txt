@@ -1,0 +1,2 @@
+/usr/bin/ar qc libSchwarzschildRayProcessor.a  CMakeFiles/SchwarzschildRayProcessor.dir/processor/SchwarzschildRayProcessor.cu.o CMakeFiles/SchwarzschildRayProcessor.dir/processor/SchwarzschildRayProcessor.cpp.o
+/usr/bin/ranlib libSchwarzschildRayProcessor.a

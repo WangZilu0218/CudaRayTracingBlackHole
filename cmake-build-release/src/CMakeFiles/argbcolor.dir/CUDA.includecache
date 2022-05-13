@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/tmp/tmp.VJ6IohNGxK/src/utiles/ArgbColor.cu
+ArgbColor.cuh
+/tmp/tmp.VJ6IohNGxK/src/utiles/ArgbColor.cuh
+
+/tmp/tmp.VJ6IohNGxK/src/utiles/ArgbColor.cuh
+opencv2/opencv.hpp
+/tmp/tmp.VJ6IohNGxK/src/utiles/opencv2/opencv.hpp
+
