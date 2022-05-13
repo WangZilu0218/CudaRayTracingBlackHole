@@ -25,10 +25,15 @@ you can use this .so by python
 
 '''
 from RayTraceBlackHole import renderBlackHoleOneFrame
+
 import numpy as np
+
 cameraPos = np.array([0.0, 0.3, -20.0])
+
 lookAt = np.array([0.0, 0.0, 0.0])
+
 up = np.array([-0.3, 1.0, 0.0])
+
 renderBlackHoleOneFrame(cameraPos, lookAt, up, 0)
 '''
 
